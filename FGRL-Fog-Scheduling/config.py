@@ -1,0 +1,5 @@
+NUM_FOG_NODES=40
+LEARNING_RATE=3e-4
+GAMMA=0.99
+TOTAL_TIMESTEPS=2000
+MODEL_PATH='checkpoints/ppo_scheduler.zip'
