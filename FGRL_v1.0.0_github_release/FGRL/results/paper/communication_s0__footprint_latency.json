@@ -1,0 +1,11 @@
+{
+  "machine": "x86_64",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "threads": 1,
+  "model_params_MB_per_node": 0.067348,
+  "experience_buffer_MB_per_node_upper_bound": 0.02,
+  "workflow_tasks": 100,
+  "inference_ms_per_decision_mean": 0.7074092700349865,
+  "inference_ms_per_decision_p95": 0.8874670014847651
+}

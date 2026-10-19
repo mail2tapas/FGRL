@@ -1,0 +1,11 @@
+{
+  "_comment": "PILOT on the same Pegasus benchmark data with a reduced budget (3 seeds, 400 episodes, 4 node counts). Shows the full pipeline works end to end; its numbers are NOT the paper results.",
+  "seed": 0,
+  "workflow_size": 100,
+  "pegasus_dir": "data/pegasus",
+  "infra": {"num_fog_nodes": 10},
+  "train": {"episodes": 400, "workflows_per_episode": 2, "eval_every": 50, "early_stop_patience": 5},
+  "fed": {"interval_k": 50},
+  "experiment": {"seeds": [0, 1, 2], "episodes": 400, "eval_seeds": 2,
+                 "node_counts": [10, 20, 40, 80], "k_values": [10, 25, 50, 100, 200], "comm_seeds": 1}
+}

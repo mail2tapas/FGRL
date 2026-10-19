@@ -1,0 +1,5 @@
+Approach,Makespan (s),Energy (kWh),SLA Violation (%),Avg. Utilization (%),n_blocks
+HEFT,36431.1 ± 62113.7,3.8992,48.4,47.7,3
+PSO-Fuzzy,36431.3 ± 62114.4,3.8992,48.3,47.7,3
+Centralized PPO,37172.9 ± 63478.1,4.9107,42.7,25.9,3
+FGRL,26922.9 ± 46005.9,3.3439,31.3,63.7,3

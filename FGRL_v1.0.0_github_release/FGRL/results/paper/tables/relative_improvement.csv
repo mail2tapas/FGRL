@@ -1,0 +1,13 @@
+Metric,vs,Mean block-wise improvement (%),95% bootstrap CI,Montage,Cybershake,Epigenomics
+Makespan (s),HEFT,35.1,"[32.9, 37.2]",38.7,35.0,31.7
+Makespan (s),PSO-Fuzzy,35.2,"[33.0, 37.3]",38.8,35.1,31.7
+Makespan (s),Centralized PPO,39.5,"[35.8, 43.5]",52.2,31.6,34.7
+Energy (kWh),HEFT,14.1,"[12.0, 16.1]",19.2,10.5,12.7
+Energy (kWh),PSO-Fuzzy,14.1,"[12.1, 16.1]",19.2,10.5,12.7
+Energy (kWh),Centralized PPO,30.4,"[28.2, 32.8]",33.7,25.1,32.5
+SLA violation (%),HEFT,40.4,"[32.0, 48.7]",9.5,51.3,60.5
+SLA violation (%),PSO-Fuzzy,40.6,"[32.1, 48.8]",9.5,51.7,60.5
+SLA violation (%),Centralized PPO,33.7,"[28.9, 39.2]",23.9,48.8,28.5
+Avg. utilization (%),HEFT,31.8,"[26.6, 37.2]",46.6,27.2,21.7
+Avg. utilization (%),PSO-Fuzzy,31.9,"[26.6, 37.3]",46.6,27.3,21.7
+Avg. utilization (%),Centralized PPO,182.2,"[164.2, 200.9]",221.3,136.5,188.9

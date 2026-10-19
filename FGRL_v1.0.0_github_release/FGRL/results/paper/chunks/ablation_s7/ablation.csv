@@ -1,0 +1,4 @@
+Approach,Makespan (s),Energy (kWh),SLA Violation (%),Avg. Utilization (%),n_blocks
+FGRL w/o GNN,25676.5 ± 43823.0,3.1784,31.3,63.9,3
+FGRL w/o critical-path reward,25235.9 ± 43076.0,3.2714,30.9,63.4,3
+FGRL w/o federation,26914.6 ± 45958.5,3.5344,32.3,56.5,3

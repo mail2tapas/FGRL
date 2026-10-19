@@ -1,0 +1,5 @@
+Variant,Makespan increase vs full FGRL (%) [95% CI],Montage,Cybershake,Epigenomics,Wilcoxon p (log ratio),Holm-adjusted p,FGRL better,n blocks
+FGRL w/o GNN,"2.3 [0.5, 4.1]",1.8,1.5,3.6,0.0277,0.0555,21/30,30.0
+FGRL w/o critical-path reward,"0.9 [-1.0, 2.9]",1.1,-0.3,2.0,0.49,0.49,16/30,30.0
+FGRL w/o federation,"9.7 [6.3, 13.3]",11.9,6.1,11.3,2.35e-06,7.05e-06,26/30,30.0
+FGRL,,,,,,,,

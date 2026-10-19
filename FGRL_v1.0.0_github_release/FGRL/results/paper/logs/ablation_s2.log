@@ -1,0 +1,7 @@
+seed=2 method=FGRL w/o GNN                     makespan=26000.73s (311.7s)
+seed=2 method=FGRL w/o critical-path reward    makespan=25456.78s (308.0s)
+seed=2 method=FGRL w/o federation              makespan=27536.07s (201.5s)
+                     Approach      Makespan (s) Energy (kWh) SLA Violation (%) Avg. Utilization (%)  n_blocks
+                 FGRL w/o GNN 26000.7 ± 44385.6       3.3235              30.9                 63.0         3
+FGRL w/o critical-path reward 25456.8 ± 43447.3       3.5109              30.1                 62.0         3
+          FGRL w/o federation 27536.1 ± 46961.5       3.6658              34.5                 53.6         3

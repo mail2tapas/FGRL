@@ -1,0 +1,4 @@
+FGRL vs,FGRL better in,Wilcoxon p,Holm-adjusted p,Nemenyi p,Paired d_z [95% CI]
+HEFT,30/30 blocks,1.86e-09,5.59e-09,8.68e-09,"2.10 [1.69, 2.85]"
+PSO-Fuzzy,30/30 blocks,1.86e-09,5.59e-09,2.46e-09,"2.11 [1.70, 2.89]"
+Centralized PPO,30/30 blocks,1.73e-06,1.73e-06,7.18e-08,"1.71 [1.38, 2.31]"

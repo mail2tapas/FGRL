@@ -1,0 +1,834 @@
+{
+ "name": "cybershake-50-3",
+ "schemaVersion": "1.4",
+ "workflow": {
+  "tasks": [
+   {
+    "name": "ZipSeis_00000",
+    "id": "00000",
+    "type": "compute",
+    "runtimeInSeconds": 0.6209,
+    "parents": [
+     "00003",
+     "00005",
+     "00007",
+     "00009",
+     "00011",
+     "00013",
+     "00015",
+     "00017",
+     "00019",
+     "00021",
+     "00023",
+     "00025",
+     "00027",
+     "00029",
+     "00031",
+     "00033",
+     "00035",
+     "00037",
+     "00039",
+     "00041",
+     "00043",
+     "00045",
+     "00047"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_0",
+      "sizeInBytes": 0
+     }
+    ]
+   },
+   {
+    "name": "ZipPSA_00001",
+    "id": "00001",
+    "type": "compute",
+    "runtimeInSeconds": 0.6732,
+    "parents": [
+     "00004",
+     "00006",
+     "00008",
+     "00010",
+     "00012",
+     "00014",
+     "00016",
+     "00018",
+     "00020",
+     "00022",
+     "00024",
+     "00026",
+     "00028",
+     "00030",
+     "00032",
+     "00034",
+     "00036",
+     "00038",
+     "00040",
+     "00042",
+     "00044",
+     "00046",
+     "00048"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_1",
+      "sizeInBytes": 0
+     }
+    ]
+   },
+   {
+    "name": "ExtractSGT_00002",
+    "id": "00002",
+    "type": "compute",
+    "runtimeInSeconds": 8.3421,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_2",
+      "sizeInBytes": 969472748
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00003",
+    "id": "00003",
+    "type": "compute",
+    "runtimeInSeconds": 5.9399,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_3",
+      "sizeInBytes": 879247
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00004",
+    "id": "00004",
+    "type": "compute",
+    "runtimeInSeconds": 0.1382,
+    "parents": [
+     "00003"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_4",
+      "sizeInBytes": 28948
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00005",
+    "id": "00005",
+    "type": "compute",
+    "runtimeInSeconds": 7.5473,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_5",
+      "sizeInBytes": 707360
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00006",
+    "id": "00006",
+    "type": "compute",
+    "runtimeInSeconds": 0.2246,
+    "parents": [
+     "00005"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_6",
+      "sizeInBytes": 31373
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00007",
+    "id": "00007",
+    "type": "compute",
+    "runtimeInSeconds": 7.9454,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_7",
+      "sizeInBytes": 677015
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00008",
+    "id": "00008",
+    "type": "compute",
+    "runtimeInSeconds": 0.2871,
+    "parents": [
+     "00007"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_8",
+      "sizeInBytes": 46873
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00009",
+    "id": "00009",
+    "type": "compute",
+    "runtimeInSeconds": 7.5858,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_9",
+      "sizeInBytes": 935270
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00010",
+    "id": "00010",
+    "type": "compute",
+    "runtimeInSeconds": 0.1909,
+    "parents": [
+     "00009"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_10",
+      "sizeInBytes": 38548
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00011",
+    "id": "00011",
+    "type": "compute",
+    "runtimeInSeconds": 4.0391,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_11",
+      "sizeInBytes": 557579
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00012",
+    "id": "00012",
+    "type": "compute",
+    "runtimeInSeconds": 0.2935,
+    "parents": [
+     "00011"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_12",
+      "sizeInBytes": 22648
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00013",
+    "id": "00013",
+    "type": "compute",
+    "runtimeInSeconds": 4.4932,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_13",
+      "sizeInBytes": 903639
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00014",
+    "id": "00014",
+    "type": "compute",
+    "runtimeInSeconds": 0.2404,
+    "parents": [
+     "00013"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_14",
+      "sizeInBytes": 21643
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00015",
+    "id": "00015",
+    "type": "compute",
+    "runtimeInSeconds": 5.1751,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_15",
+      "sizeInBytes": 579388
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00016",
+    "id": "00016",
+    "type": "compute",
+    "runtimeInSeconds": 0.2308,
+    "parents": [
+     "00015"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_16",
+      "sizeInBytes": 49378
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00017",
+    "id": "00017",
+    "type": "compute",
+    "runtimeInSeconds": 4.0103,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_17",
+      "sizeInBytes": 692687
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00018",
+    "id": "00018",
+    "type": "compute",
+    "runtimeInSeconds": 0.1637,
+    "parents": [
+     "00017"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_18",
+      "sizeInBytes": 43530
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00019",
+    "id": "00019",
+    "type": "compute",
+    "runtimeInSeconds": 6.4151,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_19",
+      "sizeInBytes": 553877
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00020",
+    "id": "00020",
+    "type": "compute",
+    "runtimeInSeconds": 0.2231,
+    "parents": [
+     "00019"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_20",
+      "sizeInBytes": 33032
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00021",
+    "id": "00021",
+    "type": "compute",
+    "runtimeInSeconds": 5.4615,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_21",
+      "sizeInBytes": 485373
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00022",
+    "id": "00022",
+    "type": "compute",
+    "runtimeInSeconds": 0.238,
+    "parents": [
+     "00021"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_22",
+      "sizeInBytes": 44952
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00023",
+    "id": "00023",
+    "type": "compute",
+    "runtimeInSeconds": 4.0093,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_23",
+      "sizeInBytes": 728958
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00024",
+    "id": "00024",
+    "type": "compute",
+    "runtimeInSeconds": 0.211,
+    "parents": [
+     "00023"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_24",
+      "sizeInBytes": 31491
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00025",
+    "id": "00025",
+    "type": "compute",
+    "runtimeInSeconds": 6.8156,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_25",
+      "sizeInBytes": 688233
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00026",
+    "id": "00026",
+    "type": "compute",
+    "runtimeInSeconds": 0.2774,
+    "parents": [
+     "00025"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_26",
+      "sizeInBytes": 47333
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00027",
+    "id": "00027",
+    "type": "compute",
+    "runtimeInSeconds": 3.2616,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_27",
+      "sizeInBytes": 736275
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00028",
+    "id": "00028",
+    "type": "compute",
+    "runtimeInSeconds": 0.1945,
+    "parents": [
+     "00027"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_28",
+      "sizeInBytes": 14811
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00029",
+    "id": "00029",
+    "type": "compute",
+    "runtimeInSeconds": 7.5769,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_29",
+      "sizeInBytes": 402866
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00030",
+    "id": "00030",
+    "type": "compute",
+    "runtimeInSeconds": 0.2915,
+    "parents": [
+     "00029"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_30",
+      "sizeInBytes": 19022
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00031",
+    "id": "00031",
+    "type": "compute",
+    "runtimeInSeconds": 4.038,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_31",
+      "sizeInBytes": 522490
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00032",
+    "id": "00032",
+    "type": "compute",
+    "runtimeInSeconds": 0.192,
+    "parents": [
+     "00031"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_32",
+      "sizeInBytes": 39600
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00033",
+    "id": "00033",
+    "type": "compute",
+    "runtimeInSeconds": 5.6376,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_33",
+      "sizeInBytes": 778100
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00034",
+    "id": "00034",
+    "type": "compute",
+    "runtimeInSeconds": 0.1788,
+    "parents": [
+     "00033"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_34",
+      "sizeInBytes": 42581
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00035",
+    "id": "00035",
+    "type": "compute",
+    "runtimeInSeconds": 6.5059,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_35",
+      "sizeInBytes": 541366
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00036",
+    "id": "00036",
+    "type": "compute",
+    "runtimeInSeconds": 0.1615,
+    "parents": [
+     "00035"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_36",
+      "sizeInBytes": 27444
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00037",
+    "id": "00037",
+    "type": "compute",
+    "runtimeInSeconds": 5.1626,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_37",
+      "sizeInBytes": 433258
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00038",
+    "id": "00038",
+    "type": "compute",
+    "runtimeInSeconds": 0.1752,
+    "parents": [
+     "00037"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_38",
+      "sizeInBytes": 31744
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00039",
+    "id": "00039",
+    "type": "compute",
+    "runtimeInSeconds": 5.9839,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_39",
+      "sizeInBytes": 431648
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00040",
+    "id": "00040",
+    "type": "compute",
+    "runtimeInSeconds": 0.2915,
+    "parents": [
+     "00039"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_40",
+      "sizeInBytes": 38567
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00041",
+    "id": "00041",
+    "type": "compute",
+    "runtimeInSeconds": 6.6577,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_41",
+      "sizeInBytes": 367824
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00042",
+    "id": "00042",
+    "type": "compute",
+    "runtimeInSeconds": 0.2706,
+    "parents": [
+     "00041"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_42",
+      "sizeInBytes": 17781
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00043",
+    "id": "00043",
+    "type": "compute",
+    "runtimeInSeconds": 4.3399,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_43",
+      "sizeInBytes": 578914
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00044",
+    "id": "00044",
+    "type": "compute",
+    "runtimeInSeconds": 0.1352,
+    "parents": [
+     "00043"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_44",
+      "sizeInBytes": 22350
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00045",
+    "id": "00045",
+    "type": "compute",
+    "runtimeInSeconds": 5.0313,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_45",
+      "sizeInBytes": 694126
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00046",
+    "id": "00046",
+    "type": "compute",
+    "runtimeInSeconds": 0.1086,
+    "parents": [
+     "00045"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_46",
+      "sizeInBytes": 45423
+     }
+    ]
+   },
+   {
+    "name": "SeismogramSynthesis_00047",
+    "id": "00047",
+    "type": "compute",
+    "runtimeInSeconds": 4.4509,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_47",
+      "sizeInBytes": 844578
+     }
+    ]
+   },
+   {
+    "name": "PeakValCalc_00048",
+    "id": "00048",
+    "type": "compute",
+    "runtimeInSeconds": 0.1093,
+    "parents": [
+     "00047"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_48",
+      "sizeInBytes": 23445
+     }
+    ]
+   }
+  ]
+ }
+}

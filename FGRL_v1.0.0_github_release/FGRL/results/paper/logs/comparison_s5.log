@@ -1,0 +1,17 @@
+seed=5 method=HEFT                             makespan=35587.50s (0.1s)
+seed=5 method=PSO-Fuzzy                        makespan=35588.26s (7.6s)
+seed=5 method=Centralized PPO                  makespan=39665.27s (170.1s)
+seed=5 method=FGRL                             makespan=25787.19s (186.2s)
+       Approach      Makespan (s) Energy (kWh) SLA Violation (%) Avg. Utilization (%)  n_blocks
+           HEFT 35587.5 ± 60722.0       3.8179              43.4                 48.5         3
+      PSO-Fuzzy 35588.3 ± 60722.7       3.8179              43.5                 48.5         3
+Centralized PPO 39665.3 ± 67619.9       4.9423              49.6                 23.0         3
+           FGRL 25787.2 ± 44043.3       3.1076              31.3                 65.1         3
+Friedman makespan: chi2=8.79, p=0.03217
+Friedman energy_kwh: chi2=8.79, p=0.03217
+Friedman sla_violation_pct: chi2=6.21, p=0.1016
+Friedman utilization_pct: chi2=8.38, p=0.03879
+Cohen's d, pooled (makespan, method vs FGRL): {"HEFT": 0.18476401047849086, "PSO-Fuzzy": 0.184776879236577, "Centralized PPO": 0.24320822313076024}
+Cohen's d_z, paired (makespan, method vs FGRL): {"HEFT": 0.5875937519845696, "PSO-Fuzzy": 0.5876133142445585, "Centralized PPO": 0.5886368215221918}
+Makespan reduction of FGRL (%): {"HEFT": 27.538622962254788, "PSO-Fuzzy": 27.540172104392635, "Centralized PPO": 34.987977655258895}
+Full results incl. Nemenyi p-values: results/paper/chunks/comparison_s5/statistics.json

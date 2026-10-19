@@ -1,0 +1,784 @@
+{
+ "name": "epigenomics-50-2",
+ "schemaVersion": "1.4",
+ "workflow": {
+  "tasks": [
+   {
+    "name": "fastqSplit_00000",
+    "id": "00000",
+    "type": "compute",
+    "runtimeInSeconds": 1.1978,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_0",
+      "sizeInBytes": 193575335
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00001",
+    "id": "00001",
+    "type": "compute",
+    "runtimeInSeconds": 0.5227,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_1",
+      "sizeInBytes": 9463585
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00002",
+    "id": "00002",
+    "type": "compute",
+    "runtimeInSeconds": 0.1488,
+    "parents": [
+     "00001"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_2",
+      "sizeInBytes": 18484844
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00003",
+    "id": "00003",
+    "type": "compute",
+    "runtimeInSeconds": 0.294,
+    "parents": [
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_3",
+      "sizeInBytes": 27954627
+     }
+    ]
+   },
+   {
+    "name": "map_00004",
+    "id": "00004",
+    "type": "compute",
+    "runtimeInSeconds": 10.5555,
+    "parents": [
+     "00003"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_4",
+      "sizeInBytes": 1141550
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00005",
+    "id": "00005",
+    "type": "compute",
+    "runtimeInSeconds": 0.5306,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_5",
+      "sizeInBytes": 5103181
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00006",
+    "id": "00006",
+    "type": "compute",
+    "runtimeInSeconds": 0.2356,
+    "parents": [
+     "00005"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_6",
+      "sizeInBytes": 17595519
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00007",
+    "id": "00007",
+    "type": "compute",
+    "runtimeInSeconds": 0.3017,
+    "parents": [
+     "00006"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_7",
+      "sizeInBytes": 13848067
+     }
+    ]
+   },
+   {
+    "name": "map_00008",
+    "id": "00008",
+    "type": "compute",
+    "runtimeInSeconds": 11.5469,
+    "parents": [
+     "00007"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_8",
+      "sizeInBytes": 1840067
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00009",
+    "id": "00009",
+    "type": "compute",
+    "runtimeInSeconds": 0.3636,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_9",
+      "sizeInBytes": 19055935
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00010",
+    "id": "00010",
+    "type": "compute",
+    "runtimeInSeconds": 0.1116,
+    "parents": [
+     "00009"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_10",
+      "sizeInBytes": 21535382
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00011",
+    "id": "00011",
+    "type": "compute",
+    "runtimeInSeconds": 0.2525,
+    "parents": [
+     "00010"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_11",
+      "sizeInBytes": 19316151
+     }
+    ]
+   },
+   {
+    "name": "map_00012",
+    "id": "00012",
+    "type": "compute",
+    "runtimeInSeconds": 11.1181,
+    "parents": [
+     "00011"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_12",
+      "sizeInBytes": 1673230
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00013",
+    "id": "00013",
+    "type": "compute",
+    "runtimeInSeconds": 0.2684,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_13",
+      "sizeInBytes": 18318393
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00014",
+    "id": "00014",
+    "type": "compute",
+    "runtimeInSeconds": 0.2161,
+    "parents": [
+     "00013"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_14",
+      "sizeInBytes": 19341280
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00015",
+    "id": "00015",
+    "type": "compute",
+    "runtimeInSeconds": 0.3325,
+    "parents": [
+     "00014"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_15",
+      "sizeInBytes": 27796543
+     }
+    ]
+   },
+   {
+    "name": "map_00016",
+    "id": "00016",
+    "type": "compute",
+    "runtimeInSeconds": 5.9862,
+    "parents": [
+     "00015"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_16",
+      "sizeInBytes": 1508957
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00017",
+    "id": "00017",
+    "type": "compute",
+    "runtimeInSeconds": 0.4872,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_17",
+      "sizeInBytes": 5648850
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00018",
+    "id": "00018",
+    "type": "compute",
+    "runtimeInSeconds": 0.1225,
+    "parents": [
+     "00017"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_18",
+      "sizeInBytes": 19962987
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00019",
+    "id": "00019",
+    "type": "compute",
+    "runtimeInSeconds": 0.3706,
+    "parents": [
+     "00018"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_19",
+      "sizeInBytes": 21727100
+     }
+    ]
+   },
+   {
+    "name": "map_00020",
+    "id": "00020",
+    "type": "compute",
+    "runtimeInSeconds": 7.9982,
+    "parents": [
+     "00019"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_20",
+      "sizeInBytes": 2728415
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00021",
+    "id": "00021",
+    "type": "compute",
+    "runtimeInSeconds": 0.2118,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_21",
+      "sizeInBytes": 9178148
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00022",
+    "id": "00022",
+    "type": "compute",
+    "runtimeInSeconds": 0.2624,
+    "parents": [
+     "00021"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_22",
+      "sizeInBytes": 17330990
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00023",
+    "id": "00023",
+    "type": "compute",
+    "runtimeInSeconds": 0.2037,
+    "parents": [
+     "00022"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_23",
+      "sizeInBytes": 20711556
+     }
+    ]
+   },
+   {
+    "name": "map_00024",
+    "id": "00024",
+    "type": "compute",
+    "runtimeInSeconds": 11.5381,
+    "parents": [
+     "00023"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_24",
+      "sizeInBytes": 2584491
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00025",
+    "id": "00025",
+    "type": "compute",
+    "runtimeInSeconds": 0.5213,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_25",
+      "sizeInBytes": 20444030
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00026",
+    "id": "00026",
+    "type": "compute",
+    "runtimeInSeconds": 0.129,
+    "parents": [
+     "00025"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_26",
+      "sizeInBytes": 9657455
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00027",
+    "id": "00027",
+    "type": "compute",
+    "runtimeInSeconds": 0.2783,
+    "parents": [
+     "00026"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_27",
+      "sizeInBytes": 8585829
+     }
+    ]
+   },
+   {
+    "name": "map_00028",
+    "id": "00028",
+    "type": "compute",
+    "runtimeInSeconds": 7.9861,
+    "parents": [
+     "00027"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_28",
+      "sizeInBytes": 2666823
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00029",
+    "id": "00029",
+    "type": "compute",
+    "runtimeInSeconds": 0.4808,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_29",
+      "sizeInBytes": 11913081
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00030",
+    "id": "00030",
+    "type": "compute",
+    "runtimeInSeconds": 0.2622,
+    "parents": [
+     "00029"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_30",
+      "sizeInBytes": 6567467
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00031",
+    "id": "00031",
+    "type": "compute",
+    "runtimeInSeconds": 0.2799,
+    "parents": [
+     "00030"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_31",
+      "sizeInBytes": 15975826
+     }
+    ]
+   },
+   {
+    "name": "map_00032",
+    "id": "00032",
+    "type": "compute",
+    "runtimeInSeconds": 7.736,
+    "parents": [
+     "00031"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_32",
+      "sizeInBytes": 3360928
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00033",
+    "id": "00033",
+    "type": "compute",
+    "runtimeInSeconds": 0.37,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_33",
+      "sizeInBytes": 9140177
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00034",
+    "id": "00034",
+    "type": "compute",
+    "runtimeInSeconds": 0.1543,
+    "parents": [
+     "00033"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_34",
+      "sizeInBytes": 15797136
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00035",
+    "id": "00035",
+    "type": "compute",
+    "runtimeInSeconds": 0.2623,
+    "parents": [
+     "00034"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_35",
+      "sizeInBytes": 15986407
+     }
+    ]
+   },
+   {
+    "name": "map_00036",
+    "id": "00036",
+    "type": "compute",
+    "runtimeInSeconds": 7.7964,
+    "parents": [
+     "00035"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_36",
+      "sizeInBytes": 4908614
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00037",
+    "id": "00037",
+    "type": "compute",
+    "runtimeInSeconds": 0.4385,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_37",
+      "sizeInBytes": 14308794
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00038",
+    "id": "00038",
+    "type": "compute",
+    "runtimeInSeconds": 0.1183,
+    "parents": [
+     "00037"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_38",
+      "sizeInBytes": 26471250
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00039",
+    "id": "00039",
+    "type": "compute",
+    "runtimeInSeconds": 0.4864,
+    "parents": [
+     "00038"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_39",
+      "sizeInBytes": 12247426
+     }
+    ]
+   },
+   {
+    "name": "map_00040",
+    "id": "00040",
+    "type": "compute",
+    "runtimeInSeconds": 10.0771,
+    "parents": [
+     "00039"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_40",
+      "sizeInBytes": 1665502
+     }
+    ]
+   },
+   {
+    "name": "filterContams_00041",
+    "id": "00041",
+    "type": "compute",
+    "runtimeInSeconds": 0.3768,
+    "parents": [
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_41",
+      "sizeInBytes": 14853152
+     }
+    ]
+   },
+   {
+    "name": "sol2sanger_00042",
+    "id": "00042",
+    "type": "compute",
+    "runtimeInSeconds": 0.2956,
+    "parents": [
+     "00041"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_42",
+      "sizeInBytes": 13773246
+     }
+    ]
+   },
+   {
+    "name": "fast2bfq_00043",
+    "id": "00043",
+    "type": "compute",
+    "runtimeInSeconds": 0.24,
+    "parents": [
+     "00042"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_43",
+      "sizeInBytes": 18294586
+     }
+    ]
+   },
+   {
+    "name": "map_00044",
+    "id": "00044",
+    "type": "compute",
+    "runtimeInSeconds": 5.3782,
+    "parents": [
+     "00043"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_44",
+      "sizeInBytes": 4341080
+     }
+    ]
+   },
+   {
+    "name": "mapMerge_00045",
+    "id": "00045",
+    "type": "compute",
+    "runtimeInSeconds": 1.8283,
+    "parents": [
+     "00004",
+     "00008",
+     "00012",
+     "00016",
+     "00020",
+     "00024",
+     "00028",
+     "00032",
+     "00036",
+     "00040",
+     "00044"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_45",
+      "sizeInBytes": 15656104
+     }
+    ]
+   },
+   {
+    "name": "maqIndex_00046",
+    "id": "00046",
+    "type": "compute",
+    "runtimeInSeconds": 1.9521,
+    "parents": [
+     "00045"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_46",
+      "sizeInBytes": 15156659
+     }
+    ]
+   },
+   {
+    "name": "pileup_00047",
+    "id": "00047",
+    "type": "compute",
+    "runtimeInSeconds": 2.8316,
+    "parents": [
+     "00046"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_47",
+      "sizeInBytes": 0
+     }
+    ]
+   }
+  ]
+ }
+}

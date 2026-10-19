@@ -1,0 +1,846 @@
+{
+ "name": "montage-50-4",
+ "schemaVersion": "1.4",
+ "workflow": {
+  "tasks": [
+   {
+    "name": "mProjectPP_00000",
+    "id": "00000",
+    "type": "compute",
+    "runtimeInSeconds": 2.6512,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_0",
+      "sizeInBytes": 15976344
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00001",
+    "id": "00001",
+    "type": "compute",
+    "runtimeInSeconds": 1.6977,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_1",
+      "sizeInBytes": 18061038
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00002",
+    "id": "00002",
+    "type": "compute",
+    "runtimeInSeconds": 2.6666,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_2",
+      "sizeInBytes": 20946614
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00003",
+    "id": "00003",
+    "type": "compute",
+    "runtimeInSeconds": 1.6552,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_3",
+      "sizeInBytes": 19224328
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00004",
+    "id": "00004",
+    "type": "compute",
+    "runtimeInSeconds": 2.8632,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_4",
+      "sizeInBytes": 19523762
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00005",
+    "id": "00005",
+    "type": "compute",
+    "runtimeInSeconds": 3.1056,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_5",
+      "sizeInBytes": 16604037
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00006",
+    "id": "00006",
+    "type": "compute",
+    "runtimeInSeconds": 1.8864,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_6",
+      "sizeInBytes": 21692695
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00007",
+    "id": "00007",
+    "type": "compute",
+    "runtimeInSeconds": 2.0281,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_7",
+      "sizeInBytes": 27092702
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00008",
+    "id": "00008",
+    "type": "compute",
+    "runtimeInSeconds": 2.4645,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_8",
+      "sizeInBytes": 14992529
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00009",
+    "id": "00009",
+    "type": "compute",
+    "runtimeInSeconds": 2.1706,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_9",
+      "sizeInBytes": 13892727
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00010",
+    "id": "00010",
+    "type": "compute",
+    "runtimeInSeconds": 2.3317,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_10",
+      "sizeInBytes": 11843400
+     }
+    ]
+   },
+   {
+    "name": "mProjectPP_00011",
+    "id": "00011",
+    "type": "compute",
+    "runtimeInSeconds": 1.8985,
+    "parents": [],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_11",
+      "sizeInBytes": 12418463
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00012",
+    "id": "00012",
+    "type": "compute",
+    "runtimeInSeconds": 0.4322,
+    "parents": [
+     "00000",
+     "00001"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_12",
+      "sizeInBytes": 415780
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00013",
+    "id": "00013",
+    "type": "compute",
+    "runtimeInSeconds": 0.7847,
+    "parents": [
+     "00001",
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_13",
+      "sizeInBytes": 214846
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00014",
+    "id": "00014",
+    "type": "compute",
+    "runtimeInSeconds": 0.4174,
+    "parents": [
+     "00002",
+     "00003"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_14",
+      "sizeInBytes": 246090
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00015",
+    "id": "00015",
+    "type": "compute",
+    "runtimeInSeconds": 0.7256,
+    "parents": [
+     "00003",
+     "00004"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_15",
+      "sizeInBytes": 103808
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00016",
+    "id": "00016",
+    "type": "compute",
+    "runtimeInSeconds": 0.493,
+    "parents": [
+     "00004",
+     "00005"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_16",
+      "sizeInBytes": 308406
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00017",
+    "id": "00017",
+    "type": "compute",
+    "runtimeInSeconds": 0.4242,
+    "parents": [
+     "00005",
+     "00006"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_17",
+      "sizeInBytes": 454694
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00018",
+    "id": "00018",
+    "type": "compute",
+    "runtimeInSeconds": 0.7516,
+    "parents": [
+     "00006",
+     "00007"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_18",
+      "sizeInBytes": 436187
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00019",
+    "id": "00019",
+    "type": "compute",
+    "runtimeInSeconds": 0.5543,
+    "parents": [
+     "00007",
+     "00008"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_19",
+      "sizeInBytes": 295268
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00020",
+    "id": "00020",
+    "type": "compute",
+    "runtimeInSeconds": 0.5148,
+    "parents": [
+     "00008",
+     "00009"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_20",
+      "sizeInBytes": 155178
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00021",
+    "id": "00021",
+    "type": "compute",
+    "runtimeInSeconds": 0.6599,
+    "parents": [
+     "00009",
+     "00010"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_21",
+      "sizeInBytes": 417332
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00022",
+    "id": "00022",
+    "type": "compute",
+    "runtimeInSeconds": 0.5348,
+    "parents": [
+     "00010",
+     "00011"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_22",
+      "sizeInBytes": 323858
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00023",
+    "id": "00023",
+    "type": "compute",
+    "runtimeInSeconds": 0.4951,
+    "parents": [
+     "00011",
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_23",
+      "sizeInBytes": 487868
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00024",
+    "id": "00024",
+    "type": "compute",
+    "runtimeInSeconds": 0.6539,
+    "parents": [
+     "00000",
+     "00001"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_24",
+      "sizeInBytes": 282406
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00025",
+    "id": "00025",
+    "type": "compute",
+    "runtimeInSeconds": 0.9811,
+    "parents": [
+     "00001",
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_25",
+      "sizeInBytes": 343416
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00026",
+    "id": "00026",
+    "type": "compute",
+    "runtimeInSeconds": 0.9688,
+    "parents": [
+     "00002",
+     "00003"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_26",
+      "sizeInBytes": 337215
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00027",
+    "id": "00027",
+    "type": "compute",
+    "runtimeInSeconds": 0.9382,
+    "parents": [
+     "00003",
+     "00004"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_27",
+      "sizeInBytes": 472291
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00028",
+    "id": "00028",
+    "type": "compute",
+    "runtimeInSeconds": 0.4473,
+    "parents": [
+     "00004",
+     "00005"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_28",
+      "sizeInBytes": 368008
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00029",
+    "id": "00029",
+    "type": "compute",
+    "runtimeInSeconds": 0.4948,
+    "parents": [
+     "00005",
+     "00006"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_29",
+      "sizeInBytes": 230500
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00030",
+    "id": "00030",
+    "type": "compute",
+    "runtimeInSeconds": 0.5136,
+    "parents": [
+     "00006",
+     "00007"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_30",
+      "sizeInBytes": 201942
+     }
+    ]
+   },
+   {
+    "name": "mDiffFit_00031",
+    "id": "00031",
+    "type": "compute",
+    "runtimeInSeconds": 0.4183,
+    "parents": [
+     "00007",
+     "00008"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_31",
+      "sizeInBytes": 372811
+     }
+    ]
+   },
+   {
+    "name": "mConcatFit_00032",
+    "id": "00032",
+    "type": "compute",
+    "runtimeInSeconds": 1.1482,
+    "parents": [
+     "00012",
+     "00013",
+     "00014",
+     "00015",
+     "00016",
+     "00017",
+     "00018",
+     "00019",
+     "00020",
+     "00021",
+     "00022",
+     "00023",
+     "00024",
+     "00025",
+     "00026",
+     "00027",
+     "00028",
+     "00029",
+     "00030",
+     "00031"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_32",
+      "sizeInBytes": 672971
+     }
+    ]
+   },
+   {
+    "name": "mBgModel_00033",
+    "id": "00033",
+    "type": "compute",
+    "runtimeInSeconds": 1.7532,
+    "parents": [
+     "00032"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_33",
+      "sizeInBytes": 2469027
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00034",
+    "id": "00034",
+    "type": "compute",
+    "runtimeInSeconds": 0.8956,
+    "parents": [
+     "00033",
+     "00000"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_34",
+      "sizeInBytes": 5393742
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00035",
+    "id": "00035",
+    "type": "compute",
+    "runtimeInSeconds": 0.459,
+    "parents": [
+     "00033",
+     "00001"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_35",
+      "sizeInBytes": 3675468
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00036",
+    "id": "00036",
+    "type": "compute",
+    "runtimeInSeconds": 0.7541,
+    "parents": [
+     "00033",
+     "00002"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_36",
+      "sizeInBytes": 3955816
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00037",
+    "id": "00037",
+    "type": "compute",
+    "runtimeInSeconds": 0.7386,
+    "parents": [
+     "00033",
+     "00003"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_37",
+      "sizeInBytes": 4382754
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00038",
+    "id": "00038",
+    "type": "compute",
+    "runtimeInSeconds": 0.745,
+    "parents": [
+     "00033",
+     "00004"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_38",
+      "sizeInBytes": 3754091
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00039",
+    "id": "00039",
+    "type": "compute",
+    "runtimeInSeconds": 0.4132,
+    "parents": [
+     "00033",
+     "00005"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_39",
+      "sizeInBytes": 5075150
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00040",
+    "id": "00040",
+    "type": "compute",
+    "runtimeInSeconds": 0.4631,
+    "parents": [
+     "00033",
+     "00006"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_40",
+      "sizeInBytes": 4353493
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00041",
+    "id": "00041",
+    "type": "compute",
+    "runtimeInSeconds": 0.553,
+    "parents": [
+     "00033",
+     "00007"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_41",
+      "sizeInBytes": 4362207
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00042",
+    "id": "00042",
+    "type": "compute",
+    "runtimeInSeconds": 0.4427,
+    "parents": [
+     "00033",
+     "00008"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_42",
+      "sizeInBytes": 3931347
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00043",
+    "id": "00043",
+    "type": "compute",
+    "runtimeInSeconds": 0.9783,
+    "parents": [
+     "00033",
+     "00009"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_43",
+      "sizeInBytes": 2065397
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00044",
+    "id": "00044",
+    "type": "compute",
+    "runtimeInSeconds": 0.5842,
+    "parents": [
+     "00033",
+     "00010"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_44",
+      "sizeInBytes": 5781751
+     }
+    ]
+   },
+   {
+    "name": "mBackground_00045",
+    "id": "00045",
+    "type": "compute",
+    "runtimeInSeconds": 0.938,
+    "parents": [
+     "00033",
+     "00011"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_45",
+      "sizeInBytes": 3538883
+     }
+    ]
+   },
+   {
+    "name": "mImgtbl_00046",
+    "id": "00046",
+    "type": "compute",
+    "runtimeInSeconds": 0.4056,
+    "parents": [
+     "00034",
+     "00035",
+     "00036",
+     "00037",
+     "00038",
+     "00039",
+     "00040",
+     "00041",
+     "00042",
+     "00043",
+     "00044",
+     "00045"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_46",
+      "sizeInBytes": 11981318
+     }
+    ]
+   },
+   {
+    "name": "mAdd_00047",
+    "id": "00047",
+    "type": "compute",
+    "runtimeInSeconds": 2.0681,
+    "parents": [
+     "00046"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_47",
+      "sizeInBytes": 8615539
+     }
+    ]
+   },
+   {
+    "name": "mShrink_00048",
+    "id": "00048",
+    "type": "compute",
+    "runtimeInSeconds": 0.6842,
+    "parents": [
+     "00047"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_48",
+      "sizeInBytes": 9009617
+     }
+    ]
+   },
+   {
+    "name": "mJPEG_00049",
+    "id": "00049",
+    "type": "compute",
+    "runtimeInSeconds": 0.3043,
+    "parents": [
+     "00048"
+    ],
+    "files": [
+     {
+      "link": "output",
+      "name": "out_49",
+      "sizeInBytes": 0
+     }
+    ]
+   }
+  ]
+ }
+}

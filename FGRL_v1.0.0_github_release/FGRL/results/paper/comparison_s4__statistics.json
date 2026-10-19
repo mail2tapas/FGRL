@@ -1,0 +1,221 @@
+{
+  "makespan": {
+    "n_blocks": 3,
+    "friedman": {
+      "statistic": 5.896551724137934,
+      "p_value": 0.11675312352287351
+    },
+    "nemenyi": [
+      {
+        "a": "HEFT",
+        "b": "PSO-Fuzzy",
+        "rank_a": 2.8333333333333335,
+        "rank_b": 2.8333333333333335,
+        "p_value": 1.0
+      },
+      {
+        "a": "HEFT",
+        "b": "Centralized PPO",
+        "rank_a": 2.8333333333333335,
+        "rank_b": 3.3333333333333335,
+        "p_value": 0.9647412017885855
+      },
+      {
+        "a": "HEFT",
+        "b": "FGRL",
+        "rank_a": 2.8333333333333335,
+        "rank_b": 1.0,
+        "p_value": 0.30327279497091786
+      },
+      {
+        "a": "PSO-Fuzzy",
+        "b": "Centralized PPO",
+        "rank_a": 2.8333333333333335,
+        "rank_b": 3.3333333333333335,
+        "p_value": 0.9647412017885855
+      },
+      {
+        "a": "PSO-Fuzzy",
+        "b": "FGRL",
+        "rank_a": 2.8333333333333335,
+        "rank_b": 1.0,
+        "p_value": 0.30327279497091786
+      },
+      {
+        "a": "Centralized PPO",
+        "b": "FGRL",
+        "rank_a": 3.3333333333333335,
+        "rank_b": 1.0,
+        "p_value": 0.11949503728587241
+      }
+    ]
+  },
+  "energy_kwh": {
+    "n_blocks": 3,
+    "friedman": {
+      "statistic": 8.379310344827587,
+      "p_value": 0.038789686964484135
+    },
+    "nemenyi": [
+      {
+        "a": "HEFT",
+        "b": "PSO-Fuzzy",
+        "rank_a": 2.5,
+        "rank_b": 2.5,
+        "p_value": 1.0
+      },
+      {
+        "a": "HEFT",
+        "b": "Centralized PPO",
+        "rank_a": 2.5,
+        "rank_b": 4.0,
+        "p_value": 0.4848543543439945
+      },
+      {
+        "a": "HEFT",
+        "b": "FGRL",
+        "rank_a": 2.5,
+        "rank_b": 1.0,
+        "p_value": 0.4848543543439945
+      },
+      {
+        "a": "PSO-Fuzzy",
+        "b": "Centralized PPO",
+        "rank_a": 2.5,
+        "rank_b": 4.0,
+        "p_value": 0.4848543543439945
+      },
+      {
+        "a": "PSO-Fuzzy",
+        "b": "FGRL",
+        "rank_a": 2.5,
+        "rank_b": 1.0,
+        "p_value": 0.4848543543439945
+      },
+      {
+        "a": "Centralized PPO",
+        "b": "FGRL",
+        "rank_a": 4.0,
+        "rank_b": 1.0,
+        "p_value": 0.022956481312530475
+      }
+    ]
+  },
+  "sla_violation_pct": {
+    "n_blocks": 3,
+    "friedman": {
+      "statistic": 6.214285714285719,
+      "p_value": 0.10163765224053078
+    },
+    "nemenyi": [
+      {
+        "a": "HEFT",
+        "b": "PSO-Fuzzy",
+        "rank_a": 3.3333333333333335,
+        "rank_b": 3.0,
+        "p_value": 0.9890583014313
+      },
+      {
+        "a": "HEFT",
+        "b": "Centralized PPO",
+        "rank_a": 3.3333333333333335,
+        "rank_b": 2.6666666666666665,
+        "p_value": 0.9216027650250742
+      },
+      {
+        "a": "HEFT",
+        "b": "FGRL",
+        "rank_a": 3.3333333333333335,
+        "rank_b": 1.0,
+        "p_value": 0.11949503728587241
+      },
+      {
+        "a": "PSO-Fuzzy",
+        "b": "Centralized PPO",
+        "rank_a": 3.0,
+        "rank_b": 2.6666666666666665,
+        "p_value": 0.9890583014313
+      },
+      {
+        "a": "PSO-Fuzzy",
+        "b": "FGRL",
+        "rank_a": 3.0,
+        "rank_b": 1.0,
+        "p_value": 0.22910353693815166
+      },
+      {
+        "a": "Centralized PPO",
+        "b": "FGRL",
+        "rank_a": 2.6666666666666665,
+        "rank_b": 1.0,
+        "p_value": 0.3894010874026901
+      }
+    ]
+  },
+  "utilization_pct": {
+    "n_blocks": 3,
+    "friedman": {
+      "statistic": 8.379310344827587,
+      "p_value": 0.038789686964484135
+    },
+    "nemenyi": [
+      {
+        "a": "HEFT",
+        "b": "PSO-Fuzzy",
+        "rank_a": 2.5,
+        "rank_b": 2.5,
+        "p_value": 1.0
+      },
+      {
+        "a": "HEFT",
+        "b": "Centralized PPO",
+        "rank_a": 2.5,
+        "rank_b": 4.0,
+        "p_value": 0.4848543543439945
+      },
+      {
+        "a": "HEFT",
+        "b": "FGRL",
+        "rank_a": 2.5,
+        "rank_b": 1.0,
+        "p_value": 0.4848543543439945
+      },
+      {
+        "a": "PSO-Fuzzy",
+        "b": "Centralized PPO",
+        "rank_a": 2.5,
+        "rank_b": 4.0,
+        "p_value": 0.4848543543439945
+      },
+      {
+        "a": "PSO-Fuzzy",
+        "b": "FGRL",
+        "rank_a": 2.5,
+        "rank_b": 1.0,
+        "p_value": 0.4848543543439945
+      },
+      {
+        "a": "Centralized PPO",
+        "b": "FGRL",
+        "rank_a": 4.0,
+        "rank_b": 1.0,
+        "p_value": 0.022956481312530475
+      }
+    ]
+  },
+  "cohens_d_makespan_vs_FGRL": {
+    "HEFT": 0.17396423364467126,
+    "PSO-Fuzzy": 0.17396502926187152,
+    "Centralized PPO": 0.18490183638504673
+  },
+  "cohens_dz_paired_makespan_vs_FGRL": {
+    "HEFT": 0.5902867738737024,
+    "PSO-Fuzzy": 0.5902675622462193,
+    "Centralized PPO": 0.5866413431273019
+  },
+  "relative_makespan_reduction_pct": {
+    "HEFT": 26.099281485186054,
+    "PSO-Fuzzy": 26.099513850837543,
+    "Centralized PPO": 27.57382291853505
+  }
+}

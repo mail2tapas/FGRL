@@ -1,0 +1,5 @@
+Approach,Normalized makespan (÷HEFT),SLA violation (%),Avg. utilization (%),Makespan reduction vs HEFT (%) [95% CI]
+HEFT,1.000 ± 0.000,45.54,48.79,
+PSO-Fuzzy,1.001 ± 0.004,45.63,48.78,"-0.1 [-0.3, 0.0]"
+Centralized PPO,1.107 ± 0.215,44.90,23.20,"-10.7 [-18.8, -3.5]"
+FGRL,0.649 ± 0.061,30.62,63.92,"35.1 [32.9, 37.3]"

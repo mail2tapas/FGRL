@@ -1,0 +1,150 @@
+{
+  "definition": "first episode after which the 50-episode moving average changes by less than 5% (max-min relative to mean) over 100 consecutive episodes",
+  "montage": {
+    "Centralized PPO": {
+      "runs": 10,
+      "converged": 0,
+      "episode_mean": null,
+      "episode_sd": null
+    },
+    "FGRL": {
+      "runs": 10,
+      "converged": 9,
+      "episode_mean": 108.0,
+      "episode_sd": 58.249463516842795
+    }
+  },
+  "cybershake": {
+    "Centralized PPO": {
+      "runs": 10,
+      "converged": 0,
+      "episode_mean": null,
+      "episode_sd": null
+    },
+    "FGRL": {
+      "runs": 10,
+      "converged": 8,
+      "episode_mean": 135.75,
+      "episode_sd": 38.573677183133206
+    }
+  },
+  "epigenomics": {
+    "Centralized PPO": {
+      "runs": 10,
+      "converged": 0,
+      "episode_mean": null,
+      "episode_sd": null
+    },
+    "FGRL": {
+      "runs": 10,
+      "converged": 5,
+      "episode_mean": 107.4,
+      "episode_sd": 84.38779532610151
+    }
+  },
+  "pooled": {
+    "Centralized PPO": {
+      "runs": 30,
+      "converged": 0,
+      "episode_mean": null,
+      "episode_sd": null
+    },
+    "FGRL": {
+      "runs": 30,
+      "converged": 22,
+      "episode_mean": 117.95454545454545,
+      "episode_sd": 57.746141716281656
+    }
+  },
+  "sensitivity": {
+    "2%": {
+      "Centralized PPO": {
+        "runs": 30,
+        "converged": 0,
+        "episode_mean": null,
+        "episode_sd": null
+      },
+      "FGRL": {
+        "runs": 30,
+        "converged": 1,
+        "episode_mean": 120.0,
+        "episode_sd": null
+      }
+    },
+    "5%": {
+      "Centralized PPO": {
+        "runs": 30,
+        "converged": 0,
+        "episode_mean": null,
+        "episode_sd": null
+      },
+      "FGRL": {
+        "runs": 30,
+        "converged": 22,
+        "episode_mean": 117.95454545454545,
+        "episode_sd": 57.74614171628165
+      }
+    },
+    "10%": {
+      "Centralized PPO": {
+        "runs": 30,
+        "converged": 22,
+        "episode_mean": 63.36363636363637,
+        "episode_sd": 34.743338456451866
+      },
+      "FGRL": {
+        "runs": 30,
+        "converged": 30,
+        "episode_mean": 59.1,
+        "episode_sd": 26.536052249072718
+      }
+    }
+  },
+  "best_validation_episode": {
+    "Centralized PPO": {
+      "per_run": {
+        "0": 250,
+        "1": 150,
+        "2": 50,
+        "3": 300,
+        "4": 100,
+        "5": 150,
+        "6": 150,
+        "7": 350,
+        "8": 100,
+        "9": 150
+      },
+      "mean": 175.0,
+      "sd": 95.01461875826149
+    },
+    "FGRL": {
+      "per_run": {
+        "0": 500,
+        "1": 500,
+        "2": 550,
+        "3": 150,
+        "4": 350,
+        "5": 100,
+        "6": 550,
+        "7": 750,
+        "8": 100,
+        "9": 550
+      },
+      "mean": 410.0,
+      "sd": 224.59840703897356
+    },
+    "wilcoxon_paired_p": 0.015625
+  },
+  "training_length_episodes": {
+    "Centralized PPO": {
+      "mean": 425.0,
+      "min": 300,
+      "max": 600
+    },
+    "FGRL": {
+      "mean": 660.0,
+      "min": 350,
+      "max": 1000
+    }
+  }
+}

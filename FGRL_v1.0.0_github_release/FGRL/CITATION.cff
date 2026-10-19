@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "FGRL: Federated Graph Reinforcement Learning for Dependency-Aware Scheduling in Fog-Cloud Computing"
+type: software
+authors:
+  - family-names: Das
+    given-names: Tapas Kumar
+  - family-names: Patel
+    given-names: Deepak Kumar
+version: 1.0.0
+date-released: 2026-10-19
+license: MIT
+repository-code: "https://github.com/mail2tapas/FGRL"
+keywords:
+  - fog computing
+  - workflow scheduling
+  - federated learning
+  - graph neural networks
+  - multi-agent reinforcement learning

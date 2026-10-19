@@ -1,0 +1,16 @@
+{'K': 10, 'seed': 2, 'rounds': 200, 'param_bytes': 67348, 'bytes_total': 269392000.0, 't_train_s': 1125.5578169870023, 't_comm_s': 24.310271999999998, 'overhead_pct': 2.11417920306116}
+{'K': 25, 'seed': 2, 'rounds': 80, 'param_bytes': 67348, 'bytes_total': 107756800.0, 't_train_s': 1163.7516691670025, 't_comm_s': 9.7241088, 'overhead_pct': 0.8286586721752884}
+{'K': 50, 'seed': 2, 'rounds': 40, 'param_bytes': 67348, 'bytes_total': 53878400.0, 't_train_s': 1128.5178682760015, 't_comm_s': 4.8620544, 'overhead_pct': 0.4289871650911459}
+{'K': 100, 'seed': 2, 'rounds': 20, 'param_bytes': 67348, 'bytes_total': 26939200.0, 't_train_s': 1140.9229738680006, 't_comm_s': 2.4310272, 'overhead_pct': 0.21262244219456014}
+{'K': 200, 'seed': 2, 'rounds': 10, 'param_bytes': 67348, 'bytes_total': 13469600.0, 't_train_s': 1157.9471963960023, 't_comm_s': 1.2155136, 'overhead_pct': 0.10486134427186605}
+{
+  "machine": "x86_64",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "threads": 1,
+  "model_params_MB_per_node": 0.067348,
+  "experience_buffer_MB_per_node_upper_bound": 0.02,
+  "workflow_tasks": 100,
+  "inference_ms_per_decision_mean": 0.6001258997275727,
+  "inference_ms_per_decision_p95": 0.7610716487761238
+}

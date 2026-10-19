@@ -1,0 +1,34 @@
+seed=1 method=HEFT                             makespan=33248.27s (0.1s)
+seed=1 method=Centralized PPO                  makespan=40728.33s (163.3s)
+seed=1 method=FGRL                             makespan=22094.21s (422.2s)
+seed=1 method=HEFT                             makespan=24099.38s (0.1s)
+seed=1 method=Centralized PPO                  makespan=54816.13s (149.4s)
+seed=1 method=FGRL                             makespan=22945.01s (255.3s)
+seed=1 method=HEFT                             makespan=22293.31s (0.1s)
+seed=1 method=Centralized PPO                  makespan=68627.64s (151.3s)
+seed=1 method=FGRL                             makespan=22234.19s (644.6s)
+seed=1 method=HEFT                             makespan=18491.81s (0.2s)
+seed=1 method=Centralized PPO                  makespan=69786.60s (221.6s)
+seed=1 method=FGRL                             makespan=22057.75s (880.9s)
+seed=1 method=HEFT                             makespan=16715.94s (0.2s)
+seed=1 method=Centralized PPO                  makespan=69933.51s (175.5s)
+seed=1 method=FGRL                             makespan=22484.44s (468.4s)
+seed=1 method=HEFT                             makespan=19029.32s (0.3s)
+seed=1 method=Centralized PPO                  makespan=70404.44s (186.3s)
+seed=1 method=FGRL                             makespan=21269.51s (616.4s)
+seed=1 method=HEFT                             makespan=16926.35s (0.3s)
+seed=1 method=Centralized PPO                  makespan=70143.95s (417.6s)
+seed=1 method=FGRL                             makespan=19550.57s (503.1s)
+seed=1 method=HEFT                             makespan=18007.13s (0.4s)
+seed=1 method=Centralized PPO                  makespan=69992.52s (302.6s)
+seed=1 method=FGRL                             makespan=19716.42s (592.3s)
+method                    HEFT       Centralized PPO                 FGRL
+fog_nodes                                                                
+10         33248.27 ± 56670.46   40728.33 ± 69567.22  22094.21 ± 37705.85
+20         24099.38 ± 41036.83   54816.13 ± 93268.26  22945.01 ± 39233.33
+30         22293.31 ± 38067.12  68627.64 ± 117161.20  22234.19 ± 38020.09
+40         18491.81 ± 31446.74  69786.60 ± 119118.27  22057.75 ± 37665.54
+50         16715.94 ± 28402.30  69933.51 ± 119355.81  22484.44 ± 38439.85
+60         19029.32 ± 32538.34  70404.44 ± 120132.13  21269.51 ± 36298.10
+70         16926.35 ± 28801.99  70143.95 ± 119688.55  19550.57 ± 33387.99
+80         18007.13 ± 30680.20  69992.52 ± 119431.31  19716.42 ± 33689.42

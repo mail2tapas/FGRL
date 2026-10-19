@@ -1,0 +1,10 @@
+{
+  "_comment": "Quick configuration for checking that everything runs (minutes on a laptop CPU). Results from this file are NOT paper results.",
+  "seed": 0,
+  "workflow_size": 50,
+  "infra": {"num_fog_nodes": 4},
+  "train": {"episodes": 60, "workflows_per_episode": 2, "eval_every": 20, "early_stop_patience": 0},
+  "fed": {"interval_k": 10},
+  "experiment": {"seeds": [0, 1], "episodes": 60, "eval_seeds": 2,
+                 "node_counts": [4, 8], "k_values": [5, 10, 20], "comm_seeds": 1}
+}

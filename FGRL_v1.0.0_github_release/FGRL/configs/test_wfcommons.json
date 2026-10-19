@@ -1,0 +1,8 @@
+{
+  "_comment": "Same as test.json but reads the WfCommons-format JSON files in data/test (split 60/20/20 into train/validation/test).",
+  "workflow_dir": "data/test",
+  "infra": {"num_fog_nodes": 4},
+  "train": {"episodes": 60, "workflows_per_episode": 2, "eval_every": 20, "early_stop_patience": 0},
+  "fed": {"interval_k": 10},
+  "experiment": {"seeds": [0, 1], "episodes": 60, "eval_seeds": 2}
+}
